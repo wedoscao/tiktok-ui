@@ -1,5 +1,15 @@
 $primaryColor: #fe2c55;
+$blackColor: #000;
+$textColor: #333;
 
 // *Default layout
+
+// *Default layout >> Header
 $defaultLayoutHeaderHeight: 60px;
 $defaultLayoutWidth: 1150px;
+
+// *Default layout >> Header >> Search
+$defaultLayoutSearchBorderRadius: 92px;
+$defaultLayoutSearchHeight: 46px;
+$defaultLayoutSearchTopSpacer: 9px;
+$defaultLayoutSearchBtnWidth: 52px;
