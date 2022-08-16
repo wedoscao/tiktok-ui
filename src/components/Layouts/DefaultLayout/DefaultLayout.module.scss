@@ -4,12 +4,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 
-    .container {
-        width: $defaultLayoutWidth;
-        display: flex;
-        .content {
-            flex: 1;
-        }
-    }
+.container {
+    width: $defaultLayoutWidth;
+    display: flex;
+}
+
+.content {
+    flex: 1;
 }

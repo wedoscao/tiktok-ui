@@ -1,0 +1,5 @@
+@mixin square($width) {
+    width: $width;
+    height: $width;
+    display: block;
+}
