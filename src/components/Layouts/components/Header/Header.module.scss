@@ -36,7 +36,9 @@
         top: $defaultLayoutSearchTopSpacer;
         right: $defaultLayoutSearchBtnWidth;
         width: 1px;
-        height: calc($defaultLayoutSearchHeight - ($defaultLayoutSearchTopSpacer * 2));
+        height: calc(
+            $defaultLayoutSearchHeight - ($defaultLayoutSearchTopSpacer * 2)
+        );
         background-color: rgba(22, 24, 35, 0.12);
     }
 
@@ -90,4 +92,13 @@
     &:active {
         background-color: rgba(22, 24, 35, 0.06);
     }
+}
+
+.more-btn {
+    @include square(20px);
+    display: inline-block;
+    font-size: 2rem;
+    margin-left: 20px;
+    background-color: transparent;
+    cursor: pointer;
 }

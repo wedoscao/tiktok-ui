@@ -30,6 +30,12 @@
     margin-left: 8px;
 }
 
+.icon {
+    display: inline-block;
+    width: 24px;
+    text-align: center;
+}
+
 // ?Types
 .round {
     border-radius: 52px;
@@ -48,7 +54,12 @@
     border-color: $primaryColor;
 
     &:hover {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), $primaryColor;
+        background: linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.06),
+                rgba(0, 0, 0, 0.06)
+            ),
+            $primaryColor;
         border-color: $primaryColor;
     }
 }
